@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: inline-block;
+}
+
+header > span.logo > img {
+    height: 50px;
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+main > article {
+    position: left;
+    margin-top: 50vh;
+    margin-left: 10px;
+    line-height: 1em;
+    font-size: 2em;
+}
